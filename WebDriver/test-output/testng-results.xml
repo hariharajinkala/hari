@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-10T13:07:47 IST" name="Default suite" finished-at="2023-07-10T13:08:52 IST" duration-ms="64732">
+    <groups>
+    </groups>
+    <test started-at="2023-07-10T13:07:47 IST" name="Default test" finished-at="2023-07-10T13:08:52 IST" duration-ms="64732">
+      <class name="functionality.Amazon">
+        <test-method signature="amzn()[pri:0, instance:functionality.Amazon@758c83d8]" started-at="2023-07-10T13:07:47 IST" name="amzn" finished-at="2023-07-10T13:08:48 IST" duration-ms="60837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amzn -->
+        <test-method signature="gettitle()[pri:0, instance:functionality.Amazon@758c83d8]" started-at="2023-07-10T13:08:48 IST" name="gettitle" finished-at="2023-07-10T13:08:52 IST" depends-on-methods="functionality.Amazon.amzn" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+      </class> <!-- functionality.Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
